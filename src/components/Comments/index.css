@@ -1,0 +1,169 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.comments-main-container {
+  width: 80%;
+  max-width: 1140px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.comments-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-heading {
+    font-size: 48px;
+  }
+}
+
+.inputs-and-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .inputs-and-image-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-ccbp {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-ccbp {
+    font-size: 18px;
+  }
+}
+
+.name-input-box {
+  width: 180px;
+  height: 25px;
+  border: 1px solid #dee0e3;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .name-input-box {
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+  }
+}
+
+.ccbp-image {
+  margin-right: 30px;
+}
+
+.comment-box {
+  width: 180px;
+  border: 1px solid #dee0e3;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #1e293b;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-box {
+    width: 250px;
+    font-size: 15px;
+  }
+}
+
+.comment-btn {
+  width: 100px;
+  height: 25px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-btn {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+.ccbp-image {
+  height: 190px;
+  width: 220px;
+  order: -1;
+}
+
+@media screen and (min-width: 768px) {
+  .ccbp-image {
+    height: 290px;
+    width: 420px;
+    order: 0;
+  }
+}
+.comments-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-count {
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+}
+.comment-sub-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-sub-heading {
+    font-size: 19px;
+  }
+}
+
+.comments-list {
+  padding-left: 0;
+  margin-top: 0;
+}

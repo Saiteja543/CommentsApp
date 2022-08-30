@@ -1,0 +1,177 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-item {
+  list-style-type: none;
+}
+
+.comment-container {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .initial-container {
+    width: 32px;
+    height: 32px;
+  }
+}
+.initial {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 11px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .initial {
+    font-size: 16px;
+  }
+}
+
+.username-time-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.username {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .username {
+    font-size: 16px;
+  }
+}
+.time {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 9px;
+  margin-left: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    font-size: 12px;
+  }
+}
+
+.comment {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment {
+    font-size: 15px;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 14px;
+  }
+}
+
+.like-image {
+  height: 14px;
+  width: 14px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .like-image {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.active {
+  color: #0ea5e9;
+}
+
+.delete {
+  height: 14px;
+  width: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .delete {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.comment-line {
+  width: 100%;
+  border: 1px solid #dee0e3;
+}
